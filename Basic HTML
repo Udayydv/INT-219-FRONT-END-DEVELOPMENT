@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here is the title of the document</title>
+</head>
+<body>
+
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+
+    <p>Hi my name is <i>Uday raoshab </i> uday yadav and i <em>This is the practice session</em> persuing my bachelors of technology from lpu</p>
+    
+
+    <!-- to link a url we use anchor tag-->
+
+    <a href="https://www.w3schools.com/html/html_links.asp">w3 school.com</a><br>
+    <a href="https://www.googe.com/">google.com</a><br>
+    <a href="https://www.facebook.com/">facebook.com</a><br>
+    <a href="https://www.twitter.com/">twitter.com</a><br>
+    <a href="https://www.instagram.com/">instagram.com</a><br>
+
+    <!-- To insert a image to your web page -->
+
+    <img src="smiley.png" alt="html tutorial" style="width: 42px; height: 48px">
+
+    <!-- map and area tag -->
+
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+</body>
+</html>
