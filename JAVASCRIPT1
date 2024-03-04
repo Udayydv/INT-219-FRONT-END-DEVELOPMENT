@@ -1,0 +1,17 @@
+//HTML PART
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTODUCTION TO JAVASCRIPT</title>
+</head>
+<body>
+    
+</body>
+
+//JAVASCRIPT PART
+//console.log(is used to print something in the terminal)
+console.log("hello world")
+console.log("code is running")
+console.log(",y name is uday")
