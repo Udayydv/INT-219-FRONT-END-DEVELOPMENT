@@ -1,0 +1,77 @@
+//HTML PART
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h2>Loops</h2>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+//JAVASCRIPT PART
+//console.log(operators);
+
+// let a=4;
+// let b = 2;
+
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a**b);//to the power
+// console.log(a%b);//modulus
+
+//if- elseloop example
+// var a=5
+
+// if(a>18){
+//     console.log("he can drive");
+// }
+// else{
+//     console.log("cannot drive");
+// }
+
+//if-else-if loop ladder 
+
+// let age=0;
+
+// if(age>18){
+//     console.log("he can drive");
+// }
+
+// else if(age==0){
+//     console.log("are you kidding");
+// }
+// else{
+//     console.log("he cannot drive")
+// }
+
+//ternary operator
+// a=6;
+// b=5;
+// let c = a>b ? (a-b):(b-a);
+// console.log(c)
+
+// Basic For loop
+
+// let a=1;
+// for(let i=0; i<100;i++){
+//     console.log(a+i);
+// }
+
+//for-in loop (used to print the key value of an object)
+
+// let obj={
+//     sirname:"Raoshab",
+//     "job role":"programmer",
+//     company:"google"
+// }
+
+// for (const key in obj) {
+//     console.log(key)
+//     }
