@@ -1,0 +1,49 @@
+//HTML PART
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to variables in javascript</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+//JAVASCRIPT PART
+var a = 5;
+var b = 6;
+var c = "uday";
+
+//To print something
+console.log(a+b+8)
+
+//To find which type of variables is used we use (typeof)
+console.log(typeof a, typeof b, typeof c)
+
+//value cannot be change in the const 
+//const a1=6;
+//a1=a1+1//this is not allowed in the const variable 
+
+let x="uday";
+let y=2;
+let z=3.5;
+const p =true;
+let q=undefined;
+let r=null;
+
+console.log(x,y,z,p,q,r)
+
+console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r)
+
+//Objects
+let o ={
+    sirname:"yadav",
+    "job code":5600
+}
+console.log(o)
+//To add something into the object we use:
+o.salary ="100crore"
+console.log(o)
