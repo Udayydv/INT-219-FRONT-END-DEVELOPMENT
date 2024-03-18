@@ -1,0 +1,41 @@
+//HTML PART
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and bubbling</title>
+    <style>
+        #btn{
+            margin: 20px;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Hey i am a box</div>
+        <button id="btn">Change content</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+//JAVASCRIPT PART
+let button = document.getElementById("btn")
+
+button.addEventListener("click", ()=>{
+
+    alert("I am a box")
+
+ document.querySelector(".box").innerHTML="<b>Hey my name is Uday</b>
+
+})
+
+ button.addEventListener("dblclick", ()=>{
+         document.querySelector(".box").innerHTML="<b>Hey my name is Uday</b>"
+ })
+
+ button.addEventListener("contextmenu", ()=>{
+         alert("Hey i am Uday yadav")
+ })
