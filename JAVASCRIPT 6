@@ -1,0 +1,69 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 45px;
+            width: 56px;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box1</div> //this is a element
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+//JAVASCRIT 
+console.log("hello world!")
+//CONSOLE COMMANDS
+
+// let cont=document.body.childNodes[1]
+
+// undefined
+
+// cont
+// <div class=​"container">​…​</div>​
+
+// cont.lastChild
+// #text
+
+// cont.firstChild
+// #text
+
+// cont.firstChild[1]
+// undefined
+// cont
+// <div class=​"container">​…​</div>
+​
+// cont.firstElementChild
+// <div class=​"box">​Box1​</div>​
+
+// cont.lastElementChild
+// <div class=​"box">​Box5​</div>
+​
+// cont.lastElementChild.style.color="red"
+// 'red'
+
+// cont.lastElementChild.style.backgroundColor="blue"
+// 'blue'
+
+// cont.lastElementChild.parentElement
+// <div class= ​"container">​…​</div>
+​
+// document.firstElementChild.children
+// HTMLCollection(2) [head, body]
